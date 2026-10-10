@@ -1,0 +1,10 @@
+name: CalibrationPort
+options:
+  bundleIdPrefix: dev.calibration
+targets:
+  CalibrationPort:
+    type: application
+    platform: visionOS
+    deploymentTarget: "26.0"
+    sources: [App/Sources]
+    resources: [App/Resources]
