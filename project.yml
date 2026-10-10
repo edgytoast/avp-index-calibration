@@ -8,3 +8,6 @@ targets:
     deploymentTarget: "26.0"
     sources: [App/Sources]
     resources: [App/Resources]
+    preBuildScripts:
+      - name: Prepare
+        script: sh "$SRCROOT/scripts/setup.sh"
